@@ -1,0 +1,19 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 96px;
+  padding: 1.25rem 2.5rem;
+  background-color: var(--clr-bg);
+  z-index: 50;
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding: 1rem 2.5rem;
+  }
+}

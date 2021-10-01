@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 2.5rem;
+  margin-right: 1.25rem;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__item {
+  margin-left: 3rem;
+}
+
+.navbar__btns {
+  outline: none;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navbar__btns img {
+  height: 1.25rem;
+}
+
+.navbar__btns span {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-text);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-left: 0.5rem;
+}

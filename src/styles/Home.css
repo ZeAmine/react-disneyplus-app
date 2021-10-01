@@ -1,0 +1,17 @@
+.main-wrap {
+  min-height: calc(100vh - 2.5rem);
+  padding: 0 calc(3.5vw + 5px);
+  position: relative;
+}
+
+.main-wrap:before {
+  content: "";
+  background: url("/src/imgs/home-background.png") center center /
+    cover no-repeat fixed;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
