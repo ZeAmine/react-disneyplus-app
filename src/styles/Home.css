@@ -1,12 +1,15 @@
-.main-wrap {
-  min-height: calc(100vh - 2.5rem);
-  padding: 0 calc(3.5vw + 5px);
-  position: relative;
+.main {
+  min-height: calc(100vh - 6rem);
+  margin-top: 96px;
 }
 
-.main-wrap:before {
+.slick-list {
+  overflow: unset;
+}
+
+.main:before {
   content: "";
-  background: url("/src/imgs/home-background.png") center center /
+  background: url("../assets/images/brands/home-background.png") center center /
     cover no-repeat fixed;
   position: absolute;
   top: 0;
@@ -14,4 +17,22 @@
   left: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.main__container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (min-width: 1280px) {
+  .main__container {
+    max-width: 80rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .main__container {
+    max-width: 110rem;
+  }
 }

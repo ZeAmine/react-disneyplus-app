@@ -3,14 +3,21 @@
   align-items: center;
 }
 
+.navbar__menu {
+  display: inline;
+  width: 1.5rem;
+  margin-right: 3rem;
+  transform: translateY(0.15rem);
+  cursor: pointer;
+}
+
 .navbar__logo {
   height: 2.5rem;
   margin-right: 1.25rem;
 }
 
 .navbar__list {
-  display: flex;
-  align-items: center;
+  display: none;
 }
 
 .navbar__item {
@@ -30,10 +37,22 @@
 }
 
 .navbar__btns span {
+  font-family: var(--font-1);
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--clr-text);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   margin-left: 0.5rem;
+}
+
+@media (min-width: 1280px) {
+  .navbar__list {
+    display: flex;
+    align-items: center;
+  }
+  .navbar__menu {
+    display: none;
+    pointer-events: none;
+  }
 }

@@ -6,9 +6,10 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 96px;
+  height: 6rem;
   padding: 1.25rem 2.5rem;
   background-color: var(--clr-bg);
+  overflow-x: hidden;
   z-index: 50;
 }
 
