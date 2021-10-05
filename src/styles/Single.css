@@ -1,0 +1,44 @@
+.single {
+  margin-bottom: 1.8rem;
+}
+
+.single__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--clr-text);
+  margin-bottom: 1rem;
+}
+
+.single__slider .slick-slide {
+  padding: 0 0.1rem;
+}
+
+.slick-slide[aria-hidden="true"] .movieCard .movieCard__container::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  border-radius: 4px;
+  background: black;
+  z-index: 20;
+}
+
+@media (min-width: 640px) {
+  .single__slider .slick-slide {
+    padding: 0 0.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .single__slider .slick-slide {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .single__slider .slick-slide {
+    padding: 0 0.5rem;
+  }
+}

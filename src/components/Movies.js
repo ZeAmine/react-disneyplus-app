@@ -1,16 +1,18 @@
 import React from "react";
 import Single from "./Single";
+import requests from "../requests";
+import "../styles/Movies.css";
 
 const Movies = () => {
   return (
     <section className="movies">
-      <div className="movies__wrap">
-        <Single />
-
-        {/*<h4>Orignals</h4>*/}
-        {/*<h4>Les plus grand succès</h4>*/}
-        {/*<h4>Nouveau sur Disney+</h4>*/}
-      </div>
+      <Single title={"Continuer à regarder"} fetchUrl={requests.fetchRandom} watching={true}/>
+      <Single title={"Films Disney"} fetchUrl={requests.fetchDisney} watching={false} />
+      <Single title={"Star Wars"} fetchUrl={requests.fetchStarWars} watching={false} />
+      <Single title={"Films Pixar"} fetchUrl={requests.fetchPixar} watching={false} />
+      <Single title={"Action et Aventures"} fetchUrl={requests.fetchMarvel} watching={false} />
+      <Single title={"Les Simpsons"} fetchUrl={requests.fetchSimpsons} watching={false} />
+      <Single title={"Documentaires"} fetchUrl={requests.fetchDocumentaries} watching={false} />
     </section>
   );
 };

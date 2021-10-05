@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/Home.css";
 import ImgSlider from "./ImgSlider";
 import Collections from "./Collections";
 import Movies from "./Movies";
+import "../styles/Home.css";
 
 const Home = () => {
   return (

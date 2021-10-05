@@ -24,8 +24,9 @@
 }
 
 .slick-arrow {
+  color: white;
   opacity: 0;
-  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .slick-dots {

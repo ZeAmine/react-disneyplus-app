@@ -1,5 +1,5 @@
 .main {
-  min-height: calc(100vh - 6rem);
+  min-height: 100vh;
   margin-top: 96px;
 }
 
@@ -7,10 +7,15 @@
   overflow: unset;
 }
 
+#root {
+  overflow-x: hidden;
+}
+
 .main:before {
   content: "";
-  background: url("../assets/images/brands/home-background.png") center center /
-    cover no-repeat fixed;
+  background: url("https://prod-static.disney-plus.net/us-west-2/builds/e76798ab2a732a884562763cbd19b969a80dcd5b_1606148151180/node_modules/dss-junglebook/components/themes/images/background.png")
+    no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0;
   right: 0;

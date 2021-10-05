@@ -7,7 +7,7 @@ const User = () => {
       <div className="user__img">
         <img
           src="http://www.coupleofpixels.be/wp-content/uploads/2020/01/The-Child-Life-Size-Figure-001.jpg"
-          alt="photo de profil"
+          alt="profil"
         />
       </div>
     </div>
