@@ -11,7 +11,7 @@ const Movies = () => {
       <Single title={"Star Wars"} fetchUrl={requests.fetchStarWars} watching={false} />
       <Single title={"Films Pixar"} fetchUrl={requests.fetchPixar} watching={false} />
       <Single title={"Action et Aventures"} fetchUrl={requests.fetchMarvel} watching={false} />
-      <Single title={"Les Simpsons"} fetchUrl={requests.fetchSimpsons} watching={false} />
+      <Single title={"National Geographic"} fetchUrl={requests.fetchNationalMovies} watching={false} />
       <Single title={"Documentaires"} fetchUrl={requests.fetchDocumentaries} watching={false} />
     </section>
   );
