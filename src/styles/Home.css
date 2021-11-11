@@ -11,19 +11,6 @@
   overflow-x: hidden;
 }
 
-.main:before {
-  content: "";
-  background: url("https://prod-static.disney-plus.net/us-west-2/builds/e76798ab2a732a884562763cbd19b969a80dcd5b_1606148151180/node_modules/dss-junglebook/components/themes/images/background.png")
-    no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
 .main__container {
   position: relative;
   margin: 0 auto;

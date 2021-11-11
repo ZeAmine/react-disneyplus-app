@@ -11,7 +11,9 @@
 
 body {
   font-family: var(--font-1);
-  background-color: var(--clr-bg);
+  background: url("https://prod-static.disney-plus.net/us-west-2/builds/e76798ab2a732a884562763cbd19b969a80dcd5b_1606148151180/node_modules/dss-junglebook/components/themes/images/background.png")
+    no-repeat;
+  background-size: cover;
   color: var(--clr-text);
   font-size: 100%;
 }
